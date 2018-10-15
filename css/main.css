@@ -1,0 +1,73 @@
+
+
+.content-wrap{
+
+  cursor: pointer;
+
+}
+menu{
+  
+  background-attachment: fixed;
+}
+menu{
+  width: 100%;
+  height: 600px;
+}
+
+.whowe{
+  color: #A2A2A2;
+      font-size: 17px;
+
+
+}
+
+.img{
+  text-align: center;
+}
+
+.img2{
+}
+
+
+
+
+
+
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+
+
+
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+  
+
+  
+}
+
+
+
+
+
+.content-event {
+      font-size: 40px;
+      font-weight: 700px;
+      line-height: 38px;
+  color: #333333;
+  margin-top: 50px;
+  text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
